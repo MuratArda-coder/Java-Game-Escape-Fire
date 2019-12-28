@@ -1,0 +1,10 @@
+package LAUNCH;
+
+public class Launch {
+
+	public static void main(String args[]) {
+		Game game = new Game("Escape Fire",320,240);
+		game.start();
+	}
+
+}
